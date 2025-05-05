@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>XYZ School - Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
+
+  </head>
+  <body>
+    <header class="bg-white text-dark text-center py-2">
+      <h1 class="h4 m-0">Welcome to XYZ School</h1>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg sticky-top bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="home.html">
+          <img src="../school/images/logo.png"
+            style="height: 40px;object-fit: cover;" class="img-fluid"
+            alt="logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end offcanvas-custom-bg" tabindex="-1"
+          id="offcanvasNavbar">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">XYZ School</h5>
+            <button type="button" class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a href="home.html"
+                  class="nav-link active">Home</a></li>
+              <li class="nav-item"><a href="about.html" class="nav-link">About
+                  Us</a></li>
+              <li class="nav-item"><a href="courses.html"
+                  class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="gallery.html"
+                  class="nav-link">Gallery</a></li>
+              <li class="nav-item"><a href="contact.html"
+                  class="nav-link">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
+    <div id="heroCarousel" class="carousel slide carousel-fade"
+      data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.pexels.com/photos/256401/pexels-photo-256401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            class="d-block w-100 h-100" style="object-fit: cover;"
+            alt="Slide 1">
+
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            class="d-block w-100 h" style="object-fit: cover;" alt="Slide 2">
+
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            class="d-block w-100 h-100" style="object-fit: cover;"
+            alt="Slide 3">
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" data-bs-target="#heroCarousel"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" data-bs-target="#heroCarousel"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <div class="container my-5">
+      <h2 class="section-title text-center fade-in">Why Choose XYZ School?</h2>
+      <div class="row g-4">
+        <div class="col-md-4 fade-in">
+          <div class="card p-3 text-center shadow-sm zoom-in">
+            <img
+              src="https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=400"
+              alt="Faculty" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Experienced Faculty</h5>
+              <p>Learn from highly qualified and passionate teachers dedicated
+                to student success.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 fade-in">
+          <div class="card p-3 text-center shadow-sm zoom-in">
+            <img
+              src="https://images.pexels.com/photos/4145195/pexels-photo-4145195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=400"
+              alt="Achievements" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Top Achievements</h5>
+              <p>We consistently rank among the best in academics, sports, and
+                cultural activities.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 fade-in">
+          <div class="card p-3 text-center shadow-sm zoom-in">
+            <img
+              src="https://images.pexels.com/photos/4145196/pexels-photo-4145196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=400"
+              alt="Student-Centric" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title mt-2">Student-Centric</h5>
+              <p>Our programs nurture every student’s strengths and talents for
+                holistic development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <section class="my-5">
+      <div class="container">
+        <h2 class="section-title text-center fade-in">About XYZ School</h2>
+        <p class="text-center fade-in">XYZ School is committed to academic
+          excellence, fostering creativity and leadership to prepare students
+          for the future. We provide a nurturing environment where students
+          thrive intellectually, socially, and emotionally.</p>
+      </div>
+    </section> -->
+
+    <section class="my-5 bg-light p-4">
+      <div class="container" style="margin-top: 120px;">
+        <h2 class="section-title text-center fade-in" data-aos="fade-up">Our
+          Courses</h2>
+        <div class="row text-center g-4">
+
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card shadow-lg rounded h-100">
+              <img
+                src="https://images.pexels.com/photos/256262/pexels-photo-256262.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=200"
+                class="card-img-top" alt="Science">
+              <div class="card-body">
+                <h4 class="card-title">Science</h4>
+                <p class="card-text">Physics, Chemistry, Biology</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card shadow-lg rounded h-100">
+              <img
+                src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=200"
+                class="card-img-top" alt="Commerce">
+              <div class="card-body">
+                <h4 class="card-title">Commerce</h4>
+                <p class="card-text">Accounts, Business Studies, Economics</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="card shadow-lg rounded h-100">
+              <img
+                src="https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=200"
+                class="card-img-top" alt="Arts">
+              <div class="card-body">
+                <h4 class="card-title">Arts</h4>
+                <p class="card-text">History, Political Science, Sociology</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5">
+      <div class="container">
+        <h2 class="section-title text-center">Meet Our Staff</h2>
+        <div class="row text-center">
+          <div class="col-md-3">
+            <img src="https://randomuser.me/api/portraits/men/1.jpg"
+              class="img-fluid meet-staff-img mb-2" alt="Staff 1">
+            <h5>Mr. A</h5>
+            <p>Principal</p>
+          </div>
+          <div class="col-md-3">
+            <img src="https://randomuser.me/api/portraits/women/1.jpg"
+              class="img-fluid meet-staff-img mb-2" alt="Staff 2">
+            <h5>Ms. B</h5>
+            <p>Vice Principal</p>
+          </div>
+          <div class="col-md-3">
+            <img src="https://randomuser.me/api/portraits/men/2.jpg"
+              class="img-fluid meet-staff-img mb-2" alt="Staff 3">
+            <h5>Mr. C</h5>
+            <p>Science Teacher</p>
+          </div>
+          <div class="col-md-3">
+            <img src="https://randomuser.me/api/portraits/women/2.jpg"
+              class="img-fluid meet-staff-img mb-2" alt="Staff 4">
+            <h5>Ms. D</h5>
+            <p>Math Teacher</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 bg-light py-5">
+      <div class="container text-center" data-aos="fade-up">
+        <h2 class="section-title mb-5">What Our Students Say</h2>
+        <div class="row g-4 justify-content-center">
+    
+          <div class="col-md-4">
+            <div class="card shadow-lg border-0 p-4 rounded-4 h-100" data-aos="zoom-in" data-aos-delay="100">
+              <div class="card-body">
+                <i class="bi bi-quote display-4 text-primary mb-3"></i>
+                <p class="lead fst-italic">"XYZ School gave me the confidence and skills to achieve my dreams."</p>
+                <footer class="blockquote-footer mt-3">Alumni 2024</footer>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4">
+            <div class="card shadow-lg border-0 p-4 rounded-4 h-100" data-aos="zoom-in" data-aos-delay="200">
+              <div class="card-body">
+                <i class="bi bi-quote display-4 text-success mb-3"></i>
+                <p class="lead fst-italic">"The teachers here are supportive and helped me excel in my studies."</p>
+                <footer class="blockquote-footer mt-3">Student Class 12</footer>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4">
+            <div class="card shadow-lg border-0 p-4 rounded-4 h-100" data-aos="zoom-in" data-aos-delay="300">
+              <div class="card-body">
+                <i class="bi bi-quote display-4 text-warning mb-3"></i>
+                <p class="lead fst-italic">"I loved the interactive classes and personal attention from faculty."</p>
+                <footer class="blockquote-footer mt-3">Parent of Student</footer>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer text-light text-center py-3 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="home.html" class="text-light">Home</a></li>
+              <li><a href="about.html" class="text-light">About Us</a></li>
+              <li><a href="courses.html" class="text-light">Courses</a></li>
+              <li><a href="contact.html" class="text-light">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Follow Us</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light">Facebook</a></li>
+              <li><a href="#" class="text-light">Twitter</a></li>
+              <li><a href="#" class="text-light">Instagram</a></li>
+              <li><a href="#" class="text-light">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Contact Information</h5>
+            <ul class="list-unstyled">
+              <li><a href="mailto:info@xyzschool.com"
+                  class="text-light">info@xyzschool.com</a></li>
+              <li><a href="tel:+1234567890" class="text-light">+1 (234)
+                  567-890</a></li>
+              <li><a href="location.html" class="text-light">Our
+                  Location</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-4">
+        <p>&copy; 2025 XYZ School | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    AOS.init();
+</script>
+
+  </body>
+</html>
